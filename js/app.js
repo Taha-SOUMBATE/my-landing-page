@@ -19,9 +19,9 @@ dropdown.addEventListener("click", () => {
 $('.dropdown').click(() => {
   $('.menu').toggle();
   if ($('.dropdown').css('left') === '10px') {
-    $('.dropdown').animate({left: '17vw'});
+    $('.dropdown').css({'left': '17vw'});
   } else {
-    $('.dropdown').animate({left: '0vw'});
+    $('.dropdown').css({'left': '10px'});
   }
 });
 
