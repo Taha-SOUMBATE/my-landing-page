@@ -18,13 +18,9 @@ dropdown.addEventListener("click", () => {
 }); */
 $('.dropdown').click(() => {
   $('.menu').toggle();
-  if ($('.dropdown').css('left') === '10px') {
-    $('.dropdown').css({'left': '17vw'});
+  if ($('.dropdown').css('left') == '10px') {
+    $('.dropdown').css({left: '21vw'});
   } else {
-    $('.dropdown').css({'left': '10px'});
+    $('.dropdown').css({left: '10px'});
   }
 });
-
-
-
-
